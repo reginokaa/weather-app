@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  background: no-repeat center/auto url('https://pixabay.com/get/g3d0bc9524335a0a12d612f1d8f589f200f5267b848cd21f406902373fe6d9f096374e28b23b5c5a5c7d555d2cb858b7e_1920.jpg');
+}
+
+.card {
+  margin: 10vh auto 0;
+  width: 315px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562) ;
+}
+
+input {
+  display: inline-block;
+  width: 90%;
+}
+
+button {
+	background: none;
+	border: none;
+	padding: 0px;
+	cursor: pointer;
+}
+
+i {
+  font-size: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.w-icon {
+  width: 50px;
+}
+
+.w-temp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.w-temp .w-temp-value {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
